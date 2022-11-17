@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+  margin:0px;
+  padding:0px
+}
+
+ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  } 
+  
+  nav {
+    background: rgb(113, 185, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+  }
+.LOGO {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family:"Montserrat" , sans-serif;
+
+}
+li {
+    font-family:"Montserrat" , sans-serif;
+    padding:30px,20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+  list-style: none;
+
+}
+
+.nav-link li{
+    padding:0px 20px;
+}
+.nav-link li a{
+    transition:all 0.3 ease 0s;
+}
+
+.nav-link li a:hover{
+
+    color:azure;
+}
+
+.logo{
+   cursor:pointer; 
+}
+nav{
+    height: 50px;
+    padding: 0,0;
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 1337;
+    inherits: false;
+  }
+  
+  #rollingnumbers {
+    animation: counter 4s;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  
+  #rollingnumbers::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 1337;
+    }
+  }
+  
+  li.nav-item:hover {
+    color: var(--red);
+  }
+  
+  li {
+    position: relative;
+  }
+  
+li:before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: rgb(100, 233, 140);
+    transition: width 1s ease;
+  }
+  
+li:hover:before {
+    width: 100%;
+  }
+  
+.bckg { 
+    font-family:"Montserrat" , sans-serif ;
+    text-align: center;
+    background-color: rgb(1, 109, 73);
+    width : 550px;
+}
+
+.info {
+    height: 100px;
+    vertical-align: top;
+    font-family:"Montserrat" , sans-serif ;
+    text-align: left;
+    width:550px;
+    background-color: rgb(198, 198, 198);
+    
+}
+
+.eval { 
+    background-color: rgb(198, 198, 198);
+     width:550px;
+
+}
+input[type = "button"] {
+    width : 100px;
+    height:50px;
+    border-radius: 20px;
+    font-family:"Montserrat" , sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #4CAF50;
+    color:#4CAF50;
+    margin-right: 110px;   
+    
+
+
+}
+input[type = "text"] {
+     font-family: "Montserrat" , sans-serif;
+}
+[type = "button"].evalbtn {
+    margin-left: 110px;
+
+}
+
+input[type = "button"]:hover{
+    background-color: #4CAF50;;
+    color: white;
+     
+
+}
+p{
+    
+     width:100px;
+     height:20px;
+     background-color: aliceblue;
+     border: 3px solid black;
+     font-size: 20px;
+     margin-top: 0px;
+    }

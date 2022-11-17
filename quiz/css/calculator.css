@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+.bckg{
+    background-color: rgb(173, 179, 179);
+
+    width:400;
+    height:520;
+    border-radius: 20px;
+    
+    
+}
+h2{
+    text-align: center;
+    font-family:"Montserrat" , sans-serif;
+}
+.output{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width:250;
+    height:15;
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin-right: auto;
+    font-family:"Montserrat" , sans-serif;
+     text-align: center;
+     
+    
+}
+.clear{
+
+  
+}
+p{
+    position: relative;
+    bottom: 20px;
+}
+.numbers4-6{
+    
+
+    padding: 5px ;
+    margin:auto;
+    margin-top:auto;
+    
+
+}
+.numbers1-3{
+
+    padding: 5px ;
+    margin:auto;
+
+  }
+  .numbers7-9{
+   
+
+    padding: 5px ;
+    margin:auto;
+
+  }
+  input{
+      width:90px;
+      height:90px;
+      font-size: 60%;
+      font-family:"Montserrat" , sans-serif;
+
+  }
+
+  .number0{
+    padding: 5px ;
+    margin:auto;
+
+
+  }
+ input[type = "button"] {
+    border-radius: 15px;
+    font-size: 40px;
+    border-color: #000000;
+    color: 
+    rgb(0, 0, 0);
+    
+ }
+ input[type = "button"]:hover{
+  background-color: #000000;
+  color: white;
+
+
+}
+

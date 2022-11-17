@@ -1,0 +1,91 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/quiz.js"></script>
+  <title>Nandhu Web</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYBUaSlzxtH2ZKQQabzQm4lZRUAD2deSnOA&usqp=CAU">
+
+  
+
+</head>
+<nav>
+    <a href="home.html" class="logo">
+      <h2>
+        <span class="LOGO">Nandhu First Website</span><span class="tv"> 
+      </h2>
+    </a>
+    <ul class="nav-link">
+        <li>
+            <a href="calculator.html" class="nav-link" id="nav-link">Calculator</a>
+          </li>
+          <li >
+            <a href="quiz.html" class="nav-link" id="nav-link">Quiz</a>
+          </li>
+          <li >
+            <a href="api.html" class="nav-link" id="nav-link">API</a>
+          </li>
+    </ul>
+</nav>
+
+
+
+<h1 class = "name1">What is the capital of the US</h1>
+
+<div class="quesiton1" >
+    
+        <input type = "radio" id = "option1" name="1" onclick="wrong()" >
+         <label for="option1">nebraska</label><br>
+        <input type = "radio" id = "option2" name="1"onclick="wrong()"  >
+         <label for="option3">sacramento</label><br>
+        <input type = "radio" id = "option3" name="1" onclick="wrong()" >
+         <label for="option3">alaska</label><br>
+        <input type = "radio" id = "option4" name="1" onclick="correct()" >
+         <label for="option4">Washignton DC</label><br>
+    
+<p id = "output"> </p>
+</div>
+<h1 name = "question2">what is 2+2</h1>
+<form >
+        
+    <input type = "radio" id = "option[2]1" name="2"onclick="wrong1()" >
+     <label for="option1">1</label><br>
+    <input type = "radio" id = "option[2]2" name="2" onclick="wrong1()">
+     <label for="option3">2</label><br>
+    <input type = "radio" id = "option[2]3" name="2"onclick="correct1()" >
+     <label for="option3">4</label><br>
+    <input type = "radio" id = "option[3]4" name="2" onclick="wrong1()" >
+     <label for="option4">3</label><br>
+<p id = "output1"> </p>
+</form>
+<h1 name = "question2">what is 3+3</h1>
+<form >
+        
+    <input type = "radio" id = "option[3]1" name="3"onclick="wrong2()" >
+     <label for="option1">999</label><br>
+    <input type = "radio" id = "option[3]2" name="3" onclick="correct2()">
+     <label for="option3">6</label><br>
+    <input type = "radio" id = "option[3]3" name="3"onclick="wrong2()" >
+     <label for="option3">62</label><br>
+    <input type = "radio" id = "option[3]4" name="3" onclick="wrong2()" >
+     <label for="option4">315</label><br>
+<p id = "output2"> </p>
+</form>
+<h1 name = "question2">what is capital of india</h1>
+<form >
+        
+    <input type = "radio" id = "option[4]1" name="4"onclick="wrong3()" >
+     <label for="option1">mumbai</label><br>
+    <input type = "radio" id = "option[4]2" name="4" onclick="correct3()">
+     <label for="option3">new delhi</label><br>
+    <input type = "radio" id = "option[4]3" name="4"onclick="wrong3()" >
+     <label for="option3">beijing</label><br>
+    <input type = "radio" id = "option[4]4" name="4" onclick="wrong3()" >
+     <label for="option4">california</label><br>
+<p id = "output3"> </p>
+</form>
+<div class = "score">
+    <input value = "submit" class = "score1" type = "button" onclick="displayscore()" >
+    <p id="score"> </p>
+</div>
+

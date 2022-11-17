@@ -1,0 +1,92 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/calculator.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Nandhu Web</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYBUaSlzxtH2ZKQQabzQm4lZRUAD2deSnOA&usqp=CAU">
+
+
+    <script src="js/calc.js"></script>
+    
+  
+  </head>
+
+  <nav>
+      <a href="home.html" class="logo">
+        <h2>
+          <span class="LOGO">Nandhu First Website</span><span class="tv"> 
+        </h2>
+      </a>
+      <ul class="nav-link">
+          <li>
+              <a href="calculator.html" class="nav-link" id="nav-link">Calculator</a>
+            </li>
+            <li >
+              <a href="quiz.html" class="nav-link" id="nav-link">Quiz</a>
+            </li>
+            <li >
+              <a href="api.html" class="nav-link" id="nav-link">API</a>
+            </li>
+      </ul>
+  </nav>
+  <div class="base">
+
+      <div class ="bckg">
+           <h2>
+              CALCULATOR
+           </h2>
+           <div class ="output">
+               <p id = "display"></p>
+               
+               
+             
+
+           </div>
+           
+        <div class = "buttons">
+           <div class="numbers1-3">
+
+                <input class = "number1" value = "1" type="button" id="1" onclick="numberbutton(1)"/>
+                <input class = "number2" value = "2" type="button" id="2" onclick = "numberbutton(2)"/>
+                <input class = "number3" value = "3" type="button" id="3" onclick="numberbutton(3)"/>
+                <input class = "A" value = "+" type="button" id="A" onclick="plus()"/><br>
+
+
+            </div>
+            <div class="numbers4-6">
+                <input class = "number4" value = "4" type="button" id="4" onclick ="numberbutton(4)"/>
+                <input class = "number5" value = "5" type="button" id="5" onclick ="numberbutton(5)"/>
+                <input class = "number6" value = "6" type="button" id="6" onclick = "numberbutton(6)"/>
+
+                <input class = "S" value = "-" type="button" id="S" onclick = "subtract()"/><br>
+                    
+            </div>
+            <div class="numbers7-9">
+                <input class = "number7" value = "7" type="button" id="7"onclick ="numberbutton(7)"/>
+                <input class = "number8" value = "8" type="button" id="8"onclick="numberbutton(8)"/>
+                <input class = "number9" value = "9" type="button" id="9"onclick="numberbutton(9)"/>
+                <input class = "M" value = "x" type="button" id="M" onclick="multiply()"/>
+
+
+  
+              
+                
+            </div>
+           <div class = "number0">
+                <input class = "number0" value = "0" type="button" id="0"onclick="numberbutton(0)"/>
+                <input class = "t" value = "C" type="button" onclick="C()" />  
+                <input class = "equal" value = "=" type="button" id="="onclick="equal()"/>
+                <input class = "D" value = "&divide;" type="button" id="D" onclick = "divide()"/><br>
+
+
+           </div>
+          </div>
+
+
+      </div>
+      
+  
+ </div>
+
+  
